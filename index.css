@@ -1,0 +1,101 @@
+body{
+  margin: auto;
+  background-color: #b3d9ff;
+}
+.stfu{
+
+    width: 100%;
+    
+    }
+    
+    .stfu1{
+      font-size: 40px;
+    width: 50%;
+    
+    float: left;
+    
+    text-align: center;
+    
+    }
+    
+    .stfu2{
+    width: 50%;
+    font-size: 40px;
+    float: left;
+    
+    text-align: center;
+    
+    }
+  .mmb{
+    width: 100%;
+    }
+  .mmb1 {
+    width: 30%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    text-align: center;
+    border-radius: 10%;
+    border-image:initial;
+    border: 5px solid #000000;
+  }
+  .mmb2 {
+      width: 30%;
+      margin-left: 9%;
+      margin-right: 9%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      float: left;
+      text-align: center;
+      border-radius: 10%;
+      border-image:initial;
+      border: 5px solid #000000;
+  }
+  h2 {
+
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .heart {
+    width: 250px;
+    height: 250px;
+    top: 35%;
+    left: 49%;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    animation: heart 1s ease infinite
+  }
+  
+  @keyframes heart {
+    96% {
+      transform: translate(-50%,-50%) scale(.8,.8)
+    }
+    100% {
+      transform: translate(-50%,-50%) scale(1,1)
+    }
+  }
+  
+  .heart div {
+    background: #ff0000;
+    width: 88.75px;
+    height: 157.5px;
+    top: 40px;
+    display: block;
+    position: absolute;
+    border-radius: 50%
+    }
+  
+  .left {
+    left: 60px;
+    transform: rotate(330deg);
+  }
+  
+  .right {
+    right: 45px;
+    transform: rotate(30deg);
+  }
